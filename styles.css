@@ -61,15 +61,15 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 30px;
-    
+    gap: 50px;
+    margin: 100px auto;
 }
 li {
     display: flex;
     flex-direction: column;
     text-align: center;
     line-height: 40px;
-    
+
 }
 .content {
     display: flex;
@@ -84,4 +84,16 @@ li {
 }
 .contentContainer {
     height: 300px;
+}
+.quoteContainer {
+    background-color: #E5E7EB;
+    
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    padding: 140px 300px;
+
 }
